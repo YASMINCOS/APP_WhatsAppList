@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                         Usuario usuario= usuarioList.get(position);
                         Toast.makeText(getApplicationContext(),"Usuário" + usuario.getNome(),Toast.LENGTH_LONG).show();
                     }
-q
+
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
